@@ -156,6 +156,21 @@ main {
   .about-message ul {
     list-style-type: none;
   }
+
+  .projects {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: inherit;
+    font-size: 0.8em;
+  }
+
+  .projects h1{
+    font-size: 3.5rem;
+  }
 }
 
 @media only screen and (max-width: 750px) {
