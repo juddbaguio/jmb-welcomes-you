@@ -119,6 +119,22 @@ main {
   text-align: center;
 }
 
+.contacts {
+  margin: 20%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.contacts a{
+  text-decoration: none;
+  color: black;
+}
+
+.contacts ul li{
+  margin-top: 1.5rem;
+}
+
 
 @media only screen and (max-width: 480px) {
   .about-me {
